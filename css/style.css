@@ -36,7 +36,12 @@ header {
     width: 100%;
     position: fixed;
     justify-content: space-between;
+    box-shadow: 0 0 5px grey;
+    background-color: white;
+}
 
+main {
+    padding-top: 50px;
 }
 
 /*  Header */
