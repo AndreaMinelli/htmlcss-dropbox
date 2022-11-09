@@ -43,6 +43,15 @@
     text-align: center;
 }
 
+.link-button.light {
+    background-color: white;
+    color: black;
+    border-top: 2px solid lightgrey;
+    border-right: 2px solid lightgrey;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
 .margin-btn-md {
     margin-bottom: 25px;
 }
@@ -243,4 +252,25 @@ header a {
 
 .big-card .card-business-more {
     flex-basis: 30%;
+
+}
+
+/* Section Find partner */
+
+.find-partner {
+    margin: 100px 0;
+}
+
+.partner-pics {
+    flex-basis: 60%;
+}
+
+.partner-pics img {
+    max-width: 100%;
+    display: block;
+}
+
+.find-partner-description {
+    flex-basis: 40%;
+    padding: 30px;
 }
