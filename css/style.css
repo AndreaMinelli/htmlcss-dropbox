@@ -7,8 +7,8 @@
 
 /* Utils */
 
-.brd {
-    border: 1px solid black;
+.brd-lightgrey {
+    border: 1px solid lightgrey;
 }
 
 .container {
@@ -53,7 +53,6 @@
 
 .sep {
     width: 30px;
-    border: 1px solid lightgray;
 }
 
 /* Generals */
@@ -180,21 +179,21 @@ header a {
 /* Card business */
 
 .row {
-    height: 600px;
+    height: 700px;
     gap: 30px;
 }
 
 .column {
     flex-basis: calc(100% / 3);
-    border: 1px solid lightgrey;
 }
 
-.card {
+.card,
+.big-card {
     font-size: 11px;
 }
 
-.card-top,
-.card-bottom {
+.card-business-type,
+.card-business-more {
     padding: 20px;
 }
 
@@ -234,4 +233,14 @@ header a {
 
 .fa-check {
     color: rgb(13, 114, 255);
+}
+
+/* Big-card */
+
+.big-card .card-business-type {
+    flex-basis: 70%;
+}
+
+.big-card .card-business-more {
+    flex-basis: 30%;
 }
