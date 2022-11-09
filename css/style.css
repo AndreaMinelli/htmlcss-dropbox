@@ -51,6 +51,11 @@
     margin-bottom: 40px;
 }
 
+.sep {
+    width: 30px;
+    border: 1px solid lightgray;
+}
+
 /* Generals */
 
 body {
@@ -188,6 +193,11 @@ header a {
     font-size: 11px;
 }
 
+.card-top,
+.card-bottom {
+    padding: 20px;
+}
+
 .card-header {
     height: 30px;
     border-bottom: 1px solid lightgrey;
@@ -195,10 +205,8 @@ header a {
     line-height: 30px;
 }
 
-.card-top {
-    padding: 20px;
-}
 
+/* Card Top */
 .price-details {
     display: block;
     padding-top: 7px;
@@ -220,4 +228,10 @@ header a {
 
 .link a {
     color: blue;
+}
+
+/* Card Bottom */
+
+.fa-check {
+    color: rgb(13, 114, 255);
 }
