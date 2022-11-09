@@ -28,12 +28,25 @@
     background-color: rgb(0, 97, 255);
     color: white;
     padding: 5px 10px;
+    text-decoration: none;
+}
+
+.link-button.lg {
+    width: 170px;
+    height: 27px;
+    display: block;
+    text-align: center;
+}
+
+.margin-btn-md {
+    margin-bottom: 25px;
 }
 
 /* Generals */
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
 }
 
 header {
@@ -77,13 +90,11 @@ main {
 header li {
     list-style-type: none;
     margin: 0 10px;
-    font-size: 12px;
-
 }
 
 header a {
-    color: black;
     text-decoration: none;
+    color: black;
 }
 
 /* Main */
@@ -98,14 +109,18 @@ header a {
     flex-basis: 30%;
 }
 
-p.description {
-    font-size: 12px;
-}
-
 .jumbo-box-pic {
     flex-basis: 70%;
 }
 
 .jumbo-box-pic img {
     max-width: 100%;
+}
+
+.jumbo-box-description .fa-solid {
+    font-size: 40px;
+    font-weight: 900;
+    position: relative;
+    top: 40px;
+    cursor: pointer;
 }
