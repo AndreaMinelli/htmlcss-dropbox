@@ -16,6 +16,11 @@
     margin: 0 auto;
 }
 
+.container-small {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 .flx {
     display: flex;
 }
@@ -42,6 +47,10 @@
     margin-bottom: 25px;
 }
 
+.margin-btn-lg {
+    margin-bottom: 40px;
+}
+
 /* Generals */
 
 body {
@@ -58,15 +67,25 @@ header {
     background-color: white;
 }
 
-h1 {
-    font-size: 55px;
-    font-weight: 900;
-    display: block;
-    margin-bottom: 30px;
-}
 
 main {
     padding-top: 50px;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
 /*  Header */
@@ -99,6 +118,8 @@ header a {
 
 /* Main */
 
+/* Jumbo */
+
 .jumbo {
     background-color: rgb(180, 208, 231);
     height: 500px;
@@ -123,4 +144,80 @@ header a {
     position: relative;
     top: 40px;
     cursor: pointer;
+}
+
+/* Section business plan */
+
+.business-plan {
+    padding-top: 130px;
+}
+
+.radio-button {
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.billing-monthly {
+    margin-right: 20px;
+}
+
+.radio-button.check {
+    border: 3px solid rgb(0, 97, 255);
+}
+
+.radio-button.uncheck {
+    border: 1px solid lightgrey;
+}
+
+/* Card business */
+
+.row {
+    height: 600px;
+    gap: 30px;
+}
+
+.column {
+    flex-basis: calc(100% / 3);
+    border: 1px solid lightgrey;
+}
+
+.card {
+    font-size: 11px;
+}
+
+.card-header {
+    height: 30px;
+    border-bottom: 1px solid lightgrey;
+    text-align: center;
+    line-height: 30px;
+}
+
+.card-top {
+    padding: 20px;
+}
+
+.price-details {
+    display: block;
+    padding-top: 7px;
+    color: grey;
+}
+
+.business-card-row {
+    margin-bottom: 10px;
+}
+
+.business-card-icon {
+    flex-basis: 5%;
+    margin-right: 5px;
+}
+
+.business-card-details {
+    flex-grow: 1;
+}
+
+.link a {
+    color: blue;
 }
