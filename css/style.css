@@ -399,15 +399,33 @@ header a {
 }
 
 .ask-row {
-    height: 70px;
+    flex-wrap: wrap;
+    cursor: pointer;
 }
 
 .ask {
     flex-basis: 95%;
+    padding: 35px 0;
 }
 
 .show.answer {
     flex-basis: 5%;
+}
+
+.answer {
+    flex-basis: 100%;
+    padding-bottom: 35px;
+    display: none;
+}
+
+/* Comparsa della risposta */
+
+.ask-row:hover .answer {
+    display: block;
+}
+
+.ask-row:hover .show-answer {
+    transform: rotate(180deg);
 }
 
 /* Footer */
