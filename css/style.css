@@ -267,33 +267,33 @@ header a {
     color: grey;
 }
 
-.business-card-row {
-    margin-bottom: 10px;
-}
-
-.business-card-icon {
-    flex-basis: 5%;
-    margin-right: 5px;
-}
-
-.business-card-details {
-    flex-grow: 1;
-}
-
 .link a {
     color: blue;
 }
 
-/* Card Bottom */
+/* Card List */
 
-/* Prova */
+.business-description li::marker {
+    content: ' ';
+    font-family: 'FontAwesome';
+}
 
-.card-business-more ul {
+.business-description li:nth-child(2)::marker {
+    content: ' ';
+    font-family: 'FontAwesome';
+}
+
+.business-description li:nth-child(3)::marker {
+    content: ' ';
+    font-family: 'FontAwesome';
+}
+
+.card ul {
     list-style-position: outside;
     padding-left: 8px;
 }
 
-.card-business-more li {
+.card li {
     padding-left: 2px;
     margin-bottom: 10px;
 }
@@ -303,11 +303,6 @@ header a {
     color: rgb(13, 114, 255);
     font-family: 'FontAwesome';
 }
-
-
-
-
-
 
 /* Find partner */
 
