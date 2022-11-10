@@ -16,7 +16,7 @@
     margin: 0 auto;
 }
 
-.container-small {
+.small-container {
     max-width: 700px;
     margin: 0 auto;
 }
@@ -60,6 +60,10 @@
     margin-bottom: 40px;
 }
 
+.margin-btn-xlg {
+    margin-bottom: 80px;
+}
+
 .sep {
     width: 30px;
 }
@@ -73,12 +77,14 @@ body {
 
 header {
     height: 50px;
-    width: 100%;
+    background-color: white;
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
     justify-content: space-between;
     box-shadow: 0 0 5px grey;
-    background-color: white;
-    z-index: 1;
 }
 
 img {
@@ -256,7 +262,9 @@ header a {
 
 }
 
-/* Section Find partner */
+/* Section Dropbox Business */
+
+/* Find partner */
 
 .find-partner {
     margin: 100px 0;
@@ -270,3 +278,43 @@ header a {
     flex-basis: 40%;
     padding: 30px;
 }
+
+/* About Dropbox Business */
+
+.about-dropbox-business {
+    margin-bottom: 150px;
+}
+
+.about-dropbox-business img {
+    margin-bottom: 10px;
+}
+
+/* Our Customers */
+
+.our-customers-jumbo {
+    border: 1px solid black;
+
+}
+
+.our-customers-jumbo .column {
+    flex-basis: calc(100vw / 3);
+    height: calc(100vw / 3);
+    flex-wrap: wrap;
+}
+
+.our-customers-jumbo .customers-card {
+    height: 50%;
+    flex-basis: 50%;
+    filter: grayscale(0);
+}
+
+.customers-card {
+    justify-content: center;
+    padding: 70px 50px;
+}
+
+.our-customers-jumbo img {
+    filter: invert(100%);
+}
+
+/* Cards ID */
