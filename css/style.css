@@ -74,6 +74,10 @@
     border-left: 1px solid black;
 }
 
+.link-button:hover {
+    filter: opacity(0.8);
+}
+
 .margin-btn-md {
     margin-bottom: 25px;
 }
@@ -318,7 +322,6 @@ header a {
 .our-customers-jumbo .customers-card {
     height: 50%;
     flex-basis: 50%;
-    filter: grayscale(0);
 }
 
 .customers-card {
