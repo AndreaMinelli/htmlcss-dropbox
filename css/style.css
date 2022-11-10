@@ -123,6 +123,12 @@ main {
     padding-top: 50px;
 }
 
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 70px;
+}
+
 h1 {
     font-size: 55px;
     font-weight: 900;
@@ -137,6 +143,14 @@ h2 {
 h3 {
     font-size: 18px;
     margin-bottom: 20px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }
 
 /*  Header */
@@ -157,12 +171,10 @@ h3 {
 /* Header list */
 
 header li {
-    list-style-type: none;
     margin: 0 10px;
 }
 
 header a {
-    text-decoration: none;
     color: black;
 }
 
@@ -396,4 +408,22 @@ header a {
 
 .show.answer {
     flex-basis: 5%;
+}
+
+/* Footer */
+
+footer .column {
+    flex-basis: 20%;
+}
+
+footer a {
+    color: white;
+    margin: 10px 0;
+    display: block;
+}
+
+.change-language {
+    color: grey;
+    padding: 40px 0;
+    cursor: pointer;
 }
