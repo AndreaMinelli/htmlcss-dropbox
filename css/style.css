@@ -43,6 +43,12 @@
     text-align: center;
 }
 
+.link-button.white {
+    color: black;
+    background-color: white;
+    width: 200px;
+}
+
 .link-button.light {
     background-color: white;
     color: black;
@@ -71,6 +77,14 @@
 .sep-lg {
     width: 80px;
     border-bottom: 1px solid lightgray;
+}
+
+.flx .col-30 {
+    flex-basis: 30%;
+}
+
+.flx .col-70 {
+    flex-basis: 70%;
 }
 
 /* Generals */
@@ -152,14 +166,6 @@ header a {
     background-color: rgb(180, 208, 231);
     height: 500px;
     padding-top: 50px;
-}
-
-.jumbo-box-description {
-    flex-basis: 30%;
-}
-
-.jumbo-box-pic {
-    flex-basis: 70%;
 }
 
 .jumbo-box-description .fa-solid {
@@ -256,19 +262,6 @@ header a {
     color: rgb(13, 114, 255);
 }
 
-/* Big-card */
-
-.big-card .card-business-type {
-    flex-basis: 70%;
-}
-
-.big-card .card-business-more {
-    flex-basis: 30%;
-
-}
-
-/* Section Dropbox Business */
-
 /* Find partner */
 
 .find-partner {
@@ -360,4 +353,15 @@ header a {
     background-color: rgb(245, 245, 245);
     padding: 30px;
     height: 100%;
+}
+
+/* Our customers footer */
+
+.our-customers-footer {
+    padding: 70px 0;
+}
+
+.our-customers-footer h2 {
+    color: rgb(97, 8, 43);
+    margin: 0;
 }
