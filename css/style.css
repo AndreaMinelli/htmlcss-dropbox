@@ -83,6 +83,7 @@ header {
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 main {
@@ -118,7 +119,6 @@ h3 {
 
 .nav-bar-left img {
     max-height: 100%;
-    display: block;
 }
 
 /* Header list */
@@ -161,7 +161,7 @@ header a {
 
 /* Section business plan */
 
-.business-plan {
+#business-plan {
     padding-top: 130px;
 }
 
@@ -264,11 +264,6 @@ header a {
 
 .partner-pics {
     flex-basis: 60%;
-}
-
-.partner-pics img {
-    max-width: 100%;
-    display: block;
 }
 
 .find-partner-description {
