@@ -78,8 +78,12 @@ header {
     justify-content: space-between;
     box-shadow: 0 0 5px grey;
     background-color: white;
+    z-index: 1;
 }
 
+img {
+    max-width: 100%;
+}
 
 main {
     padding-top: 50px;
@@ -147,10 +151,6 @@ header a {
     flex-basis: 70%;
 }
 
-.jumbo-box-pic img {
-    max-width: 100%;
-}
-
 .jumbo-box-description .fa-solid {
     font-size: 40px;
     font-weight: 900;
@@ -179,16 +179,17 @@ header a {
 
 .radio-button.check {
     border: 3px solid rgb(0, 97, 255);
+    cursor: pointer;
 }
 
 .radio-button.uncheck {
     border: 1px solid lightgrey;
+    cursor: pointer;
 }
 
 /* Card business */
 
 .row {
-    height: 700px;
     gap: 30px;
 }
 
