@@ -324,6 +324,7 @@ header a {
 .customers-card {
     justify-content: center;
     padding: 70px 50px;
+    cursor: pointer;
 }
 
 .customers-card img {
@@ -334,6 +335,13 @@ header a {
     display: block;
     width: 50%;
 }
+
+/* Effetto selezione card */
+
+.customers-card:hover {
+    border: 10px solid rgba(255, 255, 255, 0.6);
+}
+
 
 /* Cards ID */
 
