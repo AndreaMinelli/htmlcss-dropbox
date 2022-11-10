@@ -11,6 +11,14 @@
     border: 1px solid lightgrey;
 }
 
+.brd-bottom-lightgrey {
+    border-bottom: 1px solid lightgray;
+}
+
+.brd-bottom-grey {
+    border-bottom: 1px solid grey;
+}
+
 .container {
     max-width: 860px;
     margin: 0 auto;
@@ -27,6 +35,14 @@
 
 .flx.al-center {
     align-items: center;
+}
+
+.flx .col-30 {
+    flex-basis: 30%;
+}
+
+.flx .col-70 {
+    flex-basis: 70%;
 }
 
 .link-button {
@@ -77,14 +93,6 @@
 .sep-lg {
     width: 80px;
     border-bottom: 1px solid lightgray;
-}
-
-.flx .col-30 {
-    flex-basis: 30%;
-}
-
-.flx .col-70 {
-    flex-basis: 70%;
 }
 
 /* Generals */
@@ -364,4 +372,28 @@ header a {
 .our-customers-footer h2 {
     color: rgb(97, 8, 43);
     margin: 0;
+}
+
+/* Frequent ask */
+
+#frequent-ask {
+    margin: 100px 0;
+
+}
+
+#frequent-ask h2 {
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+
+.ask-row {
+    height: 70px;
+}
+
+.ask {
+    flex-basis: 95%;
+}
+
+.show.answer {
+    flex-basis: 5%;
 }
