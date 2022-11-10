@@ -286,9 +286,28 @@ header a {
 
 /* Card Bottom */
 
-.fa-check {
-    color: rgb(13, 114, 255);
+/* Prova */
+
+.card-business-more ul {
+    list-style-position: outside;
+    padding-left: 8px;
 }
+
+.card-business-more li {
+    padding-left: 2px;
+    margin-bottom: 10px;
+}
+
+.card-business-more li::marker {
+    content: ' ';
+    color: rgb(13, 114, 255);
+    font-family: 'FontAwesome';
+}
+
+
+
+
+
 
 /* Find partner */
 
