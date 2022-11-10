@@ -109,6 +109,7 @@ body {
 header {
     height: 50px;
     background-color: white;
+    padding: 0 10px;
     position: fixed;
     top: 0;
     left: 0;
@@ -159,10 +160,6 @@ li {
 
 /*  Header */
 
-.nav-bar-left {
-    padding: 10px;
-}
-
 #header-logo {
     height: 20px;
     margin-right: 10px;
@@ -172,10 +169,17 @@ li {
     max-height: 100%;
 }
 
+/* Comparsa bordo header link evidenziati */
+
+header li:hover {
+    box-shadow: 0px 2px grey;
+}
+
 /* Header list */
 
 header li {
     margin: 0 10px;
+    line-height: 50px;
 }
 
 header a {
