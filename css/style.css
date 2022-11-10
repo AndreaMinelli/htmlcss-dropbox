@@ -68,6 +68,11 @@
     width: 30px;
 }
 
+.sep-lg {
+    width: 80px;
+    border-bottom: 1px solid lightgray;
+}
+
 /* Generals */
 
 body {
@@ -313,8 +318,51 @@ header a {
     padding: 70px 50px;
 }
 
-.our-customers-jumbo img {
+.customers-card img {
     filter: invert(100%);
 }
 
+#customers-big-card picture {
+    display: block;
+    width: 50%;
+}
+
 /* Cards ID */
+
+#designit {
+    background-color: rgb(162, 211, 155);
+}
+
+#arizona-st {
+    background-color: rgb(97, 8, 43);
+}
+
+#florida-un {
+    background-color: rgb(0, 147, 206);
+}
+
+#topps {
+    background-color: rgb(255, 28, 28);
+}
+
+#world-bicycle {
+    background-color: rgb(213, 0, 31);
+}
+
+#hearst {
+    background-color: rgb(180, 208, 231);
+}
+
+#lonely-planet {
+    background-color: rgb(13, 36, 129);
+}
+
+#clear-channel {
+    background-color: rgb(255, 216, 48);
+}
+
+#customers-big-card {
+    background-color: rgb(245, 245, 245);
+    padding: 30px;
+    height: 100%;
+}
