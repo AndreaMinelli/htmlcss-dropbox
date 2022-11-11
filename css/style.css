@@ -344,17 +344,17 @@ header a {
 
 .customers-card {
     justify-content: center;
-    padding: 70px 50px;
     cursor: pointer;
+    border: 10px solid transparent;
+}
+
+.our-customers-jumbo picture {
+    display: block;
+    width: 50%;
 }
 
 .customers-card img {
     filter: invert(100%);
-}
-
-.customers-big-card picture {
-    display: block;
-    width: 50%;
 }
 
 /* Effetto selezione card */
@@ -362,7 +362,6 @@ header a {
 .customers-card:hover {
     border: 10px solid rgba(255, 255, 255, 0.6);
 }
-
 
 /* Cards ID */
 
