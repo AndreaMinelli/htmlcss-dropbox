@@ -290,7 +290,17 @@ header a {
 
 /* Card List */
 
-.business-description li::marker {
+.card ul {
+    list-style-position: outside;
+    padding-left: 8px;
+}
+
+.card li {
+    padding-left: 2px;
+    margin-bottom: 10px;
+}
+
+.business-description li:nth-child(1)::marker {
     content: ' ';
     font-family: 'FontAwesome';
 }
@@ -305,15 +315,6 @@ header a {
     font-family: 'FontAwesome';
 }
 
-.card ul {
-    list-style-position: outside;
-    padding-left: 8px;
-}
-
-.card li {
-    padding-left: 2px;
-    margin-bottom: 10px;
-}
 
 .card-business-more li::marker {
     content: ' ';
@@ -357,9 +358,6 @@ header a {
 .our-customers-jumbo .customers-card {
     height: 50%;
     flex-basis: 50%;
-}
-
-.customers-card {
     justify-content: center;
     cursor: pointer;
     border: 10px solid transparent;
@@ -435,7 +433,6 @@ header a {
 
 #frequent-ask {
     margin: 100px 0;
-
 }
 
 #frequent-ask h2 {
