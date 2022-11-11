@@ -5,6 +5,22 @@
     box-sizing: border-box;
 }
 
+/* Animazioni */
+
+@keyframes bounce {
+    0% {
+        top: 30px;
+    }
+
+    50% {
+        top: 45px
+    }
+
+    100% {
+        top: 30px
+    }
+}
+
 /* Utils */
 
 .brd-lightgrey {
@@ -88,6 +104,10 @@
 
 .margin-btn-xlg {
     margin-bottom: 80px;
+}
+
+.link a {
+    color: blue;
 }
 
 .sep {
@@ -199,9 +219,10 @@ header a {
 .jumbo-box-description .fa-solid {
     font-size: 40px;
     font-weight: 900;
+    color: black;
     position: relative;
-    top: 40px;
     cursor: pointer;
+    animation: bounce 1s infinite;
 }
 
 /* Section business plan */
@@ -265,10 +286,6 @@ header a {
     display: block;
     padding-top: 7px;
     color: grey;
-}
-
-.link a {
-    color: blue;
 }
 
 /* Card List */
@@ -363,7 +380,7 @@ header a {
     border: 10px solid rgba(255, 255, 255, 0.6);
 }
 
-/* Cards ID */
+/* Cards BG */
 
 .bg-lightgreen {
     background-color: rgb(162, 211, 155);
